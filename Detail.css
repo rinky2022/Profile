@@ -1,0 +1,22 @@
+header{
+    color:white;
+    background-color:rgb(50, 50, 53);
+    height:50px;
+    text-align: left;
+     
+
+}
+body
+{
+    background-image: url('Images/Background_Image1.jpg');
+    background-size: cover;
+
+}
+#footer
+{
+    color:white;
+    background-color:rgb(50, 50, 53);
+    height:50px;
+    text-align: center;
+    margin-top: 5%; 
+}
