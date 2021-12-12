@@ -1,6 +1,6 @@
 header{
     color:white;
-    background-color:rgb(50, 50, 53);
+    background-color:rgb(31, 30, 30);
     height:50px;
     text-align: left;
      
@@ -8,15 +8,13 @@ header{
 }
 body
 {
-    background-image: url('Images/Background_Image1.jpg');
-    background-size: cover;
+    /* background-image: url('Images/Background_Image1.jpg');
+    background-size: cover; */
+    background-color: black;
 
 }
-#footer
-{
-    color:white;
-    background-color:rgb(50, 50, 53);
-    height:50px;
-    text-align: center;
-    margin-top: 5%; 
+footer{
+    background-color: black;
+    color: white;
 }
+

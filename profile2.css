@@ -10,6 +10,7 @@
      color :rgb(17, 16, 16);
      margin-left: 2%;
      float:left;
+     font-weight: bold;
      
 }
 #image
@@ -66,7 +67,7 @@ a{
 #footer{
     color:white;
     background-color:rgb(59, 59, 61);
-    height:50px;
+    height:40px;
     text-align: center;
     margin-top: 5%;    
     

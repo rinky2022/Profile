@@ -2,20 +2,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <title>My Profile</title>
       <link href="https://cdn0.iconfinder.com/data/icons/ibrandify-female-user-action-icon-2/512/26-512.png"  rel="icon">        
       <link href="profile2.css" rel="stylesheet" type="text/css">
     </head>
      <!--header begins-->
      <body >
-        <header id="header">          
-                  
-             
+        <header id="header">  
+          <div class="jumbotron" style="background-color:black">    
+           
             <a href="#aboutme " class="nav">About Me</a>
             <a href="#skills" class="nav">Skills</a>
             <a href="#contact" class="nav">Contact Details</a>            
             
-           
+         
          
         </header>
      <!--header end-->
@@ -34,24 +38,27 @@
               <h4 style="color: white;">Software Engineer</h4> 
          
         </div>
-        <div style="height:200px;width:100%; overflow: scroll;"></div>
+      </div>    
+      <div class="container">
+        <div style="height:200px;width:100%;"></div>
           <section id="aboutme">
           <h1 style="font-family:sans-serif;background-color: rgb(61, 61, 59);color: rgb(248, 248, 252);text-align: center;height:50px;">About Me</h1>
         
             
           <h2 style="color: rgb(39, 39, 41);"><b> Hi,I'm Rinky! Nice to meet you</b></h2>
             
-            <p style="font-size:larger;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, ;color: rgb(3, 3, 70);"> I am a passionate Full Stack Developer. In my 2 years of experience as a Software Engineer, I have specialised in .NET language and have worked as a backend developer. I am highly passionate about learning new skillsets which has drawn me to the Edureka program. I got inspired by the content of the program and the best part being website development.
+            <p style="background-color:gray,larger;font-size:large;font-family:  'Gill Sans', 'Gill Sans MT', Calibri ;color: rgb(45, 45, 46);"> I am a passionate Full Stack Developer. In my 2 years of experience as a Software Engineer, I have specialised in .NET language and have worked as a backend developer. I am highly passionate about learning new skillsets which has drawn me to the Edureka program. I got inspired by the content of the program and the best part being website development.
             I do believe that gaining practical knowledge is relevant in the present IT sector.
            
           </p>
           </section>
        
         </div>
+      </div>
       
 
           <!--skills-->
-          <div class="skill">
+          <div class="container">
           <section id="skills">
           <h2 style="font-family:sans-serif;text-align: center;background-color: grey;height:20% margin-top 20px;">Skills</h2>
            <img src ="Images/Csharpicon.png" style="margin-left: 25%;" alt=C# title="C#" class="simage">
@@ -88,7 +95,7 @@
           <hr/>
           <footer id="footer">
               <center>
-                  <h3 style="margin:5%"><b>&copy;Rinky Rachel Mathew</b></h3>
+                  <h4 style="margin:5%"><b>&copy;Rinky Rachel Mathew</b></h4>
               </center>
           </footer>
       </body>
